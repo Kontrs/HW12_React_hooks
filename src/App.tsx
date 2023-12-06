@@ -121,8 +121,8 @@ const App = (): JSX.Element => {
   const handleDivToCorner = (): void => {
     if(divRef.current !== null) {
       divRef.current.style.position = 'absolute';
-      divRef.current.style.left = '2000px';
-      divRef.current.style.bottom = '850px';
+      divRef.current.style.right = '20px';
+      divRef.current.style.top = '20px';
       divRef.current.textContent = 'Esmu stūrī';
     }
   };
